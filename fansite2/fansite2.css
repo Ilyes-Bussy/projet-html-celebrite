@@ -1,0 +1,43 @@
+body{ 
+    margin: auto;
+    font-family: "Lato", sans-serif;
+
+}
+
+
+.haut-de-page h1{
+    margin: 0;
+}
+
+.haut-de-page{
+    text-align: center;
+    background-color: #b5121b;
+    padding: 20px ;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.img-mbappe{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    font-weight: bold;
+}
+
+.biographie{
+    font-weight: bold;
+    text-align: center;
+    
+}
+
