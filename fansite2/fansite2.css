@@ -41,3 +41,79 @@ nav a:hover{
     
 }
 
+.polemique{
+    display: flex;
+    gap:  20px;
+}
+
+.titre-polemique{
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #b5121b;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.title-contact{
+    text-align: center;
+    color: #b5121b;
+}
+
+.txt-contact{
+    text-align: center;
+}
+
+.reseau a{
+    display: inline-block;
+    margin-bottom: 20px;
+   
+    text-decoration: none;
+    color: black;
+}
+
+.reseau a:hover{
+    color: #b5121b;
+}
+
+.photo-mbappe{
+    text-align: center;
+}
