@@ -1,0 +1,97 @@
+body{ 
+    margin: auto;
+    font-family: "Lato", sans-serif;
+
+}
+
+
+.haut-de-page h1{
+    margin: 0;
+}
+
+.haut-de-page{
+    text-align: center;
+    background-color: #b5121b;
+    padding: 20px ;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.img-jul img{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-jul{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    font-weight: bold;
+}
+
+.description-title{
+    color: blue;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.title-contact{
+    text-align: center;
+    color: #b5121b;
+}
+
+.txt-contact{
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #b5121b;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
