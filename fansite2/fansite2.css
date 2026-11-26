@@ -125,3 +125,8 @@ footer {
 .reseau-ti{
     margin-top: 150px;
 }
+
+.photo-mbappe{
+    display: grid;
+    justify-content: space-around;
+}
