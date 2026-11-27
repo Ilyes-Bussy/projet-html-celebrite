@@ -130,3 +130,37 @@ footer {
     display: grid;
     justify-content: space-around;
 }
+
+.reseaux {
+    text-align: center;
+    padding: 30px;
+    margin: 30px auto;
+}
+
+.reseaux h2 {
+    color: #c40000;
+}
+
+.liens-reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.liens-reseaux a {
+    background-color: #c40000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+
+.liens-reseaux a:hover {
+    background-color: orange;
+    color: black;
+}
+
+.evenement{
+    text-align: center;
+}
